@@ -1,0 +1,84 @@
+:root {
+    --bluscuro: #05217E;
+    --blu: #0053FF;
+    --acqua: #05ECC6;
+    --fuxia: #FC04FC;
+    --giallo: #ffbb18;
+    --verde: #36892e;
+    --azzurro:#249afe;
+}
+.tx-red{
+    color: red;
+    font-weight: bold;
+}
+/* body{
+        background-image: url(/public/media/background.jpg)!important;
+
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-attachment:fixed !important;
+}    */
+
+.text-blue{
+    color: var(--blu);
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.row_revisor{
+    min-height: 300px;
+}
+
+.linkLog{
+    color: #3586FF;
+    text-decoration: none;
+}
+.linkLog:visited{
+    color: #3586FF;
+
+}
+
+
+
+/* .img-preview{
+    height: 200px;
+    width: 200px;
+} */
+
+.boxImg{
+    height: 200px;
+    /* width: 200px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+
+}
+.fontCreateAt{
+    font-size: small;
+    font-style: italic;
+ }
+
+.boxform{
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 20px;
+    padding: 30px;
+}
+.badgeNew{
+    position: absolute;
+    top: 0;
+    right: -20px;
+}   
+
+h1{
+    font-size: 90px !important;
+}

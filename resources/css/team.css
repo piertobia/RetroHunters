@@ -1,0 +1,96 @@
+
+.img-bg-marco{
+    background: url(../img/marco.jpg);
+    height: 120px;
+    width: 120px;
+    background-size:99%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-marco{
+  background: linear-gradient(40deg, #2096ff, #f3ff05);
+  background-size:95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.bg-marco{
+  background: url(../img/thewitcher.jpg);
+  background-size:95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-bg-valerio{
+  background: url(../img/valerio.jpg);
+  height: 120px;
+  width: 120px;
+  background-size:99%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-valerio{
+  background: url(../img/copertinavalerio.jpg);
+  background-size:95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-bg-pier{
+  background: url(../img/pier.jpg);
+  height: 120px;
+  width: 120px;
+  background-size:99%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-pier{
+  background: url(../img/piercopertina.jpg);
+  background-size:95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-bg-davide{
+  background: url(../img/davide.jpg);
+  height: 120px;
+  width: 120px;
+  background-size:99%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-davide{
+  background: url(../img/davidecop.jpg);
+  background-size:95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #f3ff05) !important;
+  }
+  .aqua-gradient2 {
+    background: linear-gradient(245deg, #2097ff43, #ffc905a0) !important;
+  }
+  .aqua-gradient3 {
+    background: linear-gradient(245deg, #ffc90593, #2097ff3f ) !important;
+  }
+  .m-custom{
+    transition: 0.6s;
+  }
+  .m-custom:hover{
+    margin-bottom: 40%;
+  } 
+  .testimonial-card .avatar {
+    width: 120px;
+    margin-top: -65px;
+    overflow: hidden;
+    border: 5px solid #ffa305;
+    border-radius: 50%;
+  }
+  .br-custom{
+    border-bottom: solid rgb(255, 179, 0) 5px;
+  }

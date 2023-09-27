@@ -1,0 +1,362 @@
+body{
+    background: #f2f2f2;
+  }
+  .border-custom{
+    border-top: solid var(--giallo) 5px;
+    border-bottom: solid var(--giallo) 5px;
+    
+  }
+.bg-custom{
+  background-image: url(../img/search4.jpg);
+}
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid var(--giallo);
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 50px;
+    border: none;
+    background: var(--giallo);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 100%;
+    position: relative;
+        top: 10vh;
+        left: 0vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+}
+
+
+.fungo{
+  position: absolute;
+  top:0;
+  left: 30%;
+  animation-name: slidein;
+  animation-duration: 10s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(80);
+
+}
+.supermario{
+  position: relative;
+  left:40%;
+  top: 30.5%;
+}
+
+@media (min-width: 2559px) {
+  .fungo {
+     animation-name: slideinXL;
+     
+  }
+}
+@media (min-width: 1905px) {
+  .fungo {
+     animation-name: slideinL;
+     
+  }
+}
+@media (min-width: 1279px) {
+  .fungo {
+     animation-name: slideinM;
+     
+  }
+}
+
+@media (max-width: 415px) {
+  .fungo {
+     animation-name: slideinMob415;
+     
+  }
+}
+
+@media (max-width: 393px) {
+  .fungo {
+     animation-name: slideinMob393;
+     
+  }
+}
+@media (max-width: 390px) {
+  .fungo {
+     animation-name: slideinMob390;
+     
+  }
+}
+@media (max-width: 375px) {
+  .fungo {
+     animation-name: slideinMob375;
+     
+  }
+}
+
+@media (max-width: 360px) {
+  .fungo {
+     animation-name: slideinMob360;
+     
+  }
+}
+
+
+
+@keyframes slideinXL {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+    top: 15vh;
+    left:40vw;
+ }
+ 40%{
+  top: 10vh;
+
+    left:62vw;
+ }
+ 55%{
+    top:84.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:84.5vh;
+
+    left: 98vw;
+ }
+ 100%{
+  top:84.5vh;
+
+    left: -1000px;
+  }
+ }
+
+ @keyframes slideinL {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+    top: 14.5vh;
+    left:40vw;
+ }
+ 40%{
+  top: 14.5vh;
+
+
+    left:66vw;
+ }
+ 55%{
+    top:86vh;
+    left:80vw;
+ } 
+ 65% {
+  top:86vh;
+    left: 98vw;
+ }
+ 100%{
+  top:86vh;
+
+    left: -1000px;
+  }
+ }
+ @keyframes slideinM {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 29.5vh;
+    left:35vw;
+ }
+ 40%{
+  top: 29.5vh;
+    left:69vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 98vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ }
+
+ @keyframes slideinMob360 {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 19.5vh;
+    left:35vw;
+ }
+ 40%{
+  top: 19.5vh;
+    left:83vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 89vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ 
+ }
+
+ @keyframes slideinMob393 {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 17vh;
+    left:35vw;
+ }
+ 40%{
+  top: 17vh;
+    left:83vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 89vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ 
+ }
+
+@keyframes slideinMob390 {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 17vh;
+    left:35vw;
+ }
+ 40%{
+  top: 17vh;
+    left:83vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 89vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ 
+ }
+
+ @keyframes slideinMob415 {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 16vh;
+    left:35vw;
+ }
+ 40%{
+  top: 16vh;
+    left:83vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 89vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ 
+ }
+
+ @keyframes slideinMob375 {
+  0% {
+    top: -20vh;
+    left: 25vw;
+ }
+ 10%{
+  top: 21.5vh;
+    left:35vw;
+ }
+ 40%{
+  top: 21.5vh;
+    left:83vw;
+ }
+ 55%{
+    top:82.5vh;
+    left:80vw;
+ } 
+ 65% {
+  top:82.5vh;
+    left: 89vw;
+ }
+ 100%{
+  top:82.5vh;
+
+    left: -1000px;
+  }
+ 
+ }
+

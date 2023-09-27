@@ -1,0 +1,221 @@
+/* .login-custom{
+    background: url(../img/pacman.gif);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 89%;
+} */
+.bg-color{
+    /* background-color: #0000009d; */
+    color: #ebff35;
+}
+.bd-login{
+  border-bottom: solid yellow 5px;
+}
+/* BUTTON */
+.button-893 {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #ebff35;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    /* background: */
+      /* conic-gradient(from 90deg at var(--b) var(--b),#0000008f 90deg,var(--color) 0) */
+      /* var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p)); */
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 22px;
+    margin-top: 3vh;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button-893:hover,
+  .button-893:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+
+  .button-893:active {
+    background: var(--color);
+    color: #fff;
+  }
+
+
+  .btnImg{
+    position: absolute;
+    left:65px;
+    bottom: -40px;
+    background:none;
+    border:none;
+    
+  }
+  .boxLog{
+    background-color: #808080;
+    border-radius: 70px;
+    height: 400px;
+    position: relative;
+    border-top:9px solid #5b5b5b;
+  }
+
+
+  .btnConsolePlusSX{
+    position: absolute;
+    height: 80px;
+    top:80px;
+    left: 50px;
+  }
+
+  .btnConsoleSmallX{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  -5px -5px 10px #616161,
+             5px 5px 10px #9f9f9f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top:40px;
+    right: 60px;
+    color: #616161;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .btnConsoleSmallB{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  -5px -5px 10px #616161,
+             5px 5px 10px #9f9f9f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top:85px;
+    right: 20px;
+    color: #616161;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .btnConsoleSmallA{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  -5px -5px 10px #616161,
+             5px 5px 10px #9f9f9f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top:130px;
+    right: 60px;
+    color: #616161;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer !important;
+    
+  }
+  a{
+    cursor: pointer !important;
+  }
+
+  .btnConsoleSmallY{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  -5px -5px 10px #616161,
+             5px 5px 10px #9f9f9f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top:85px;
+    right: 100px;
+    color: #616161;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .btnConsoleSX{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  -5px -5px 10px #616161,
+             5px 5px 10px #9f9f9f;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top:250px;
+    left: 50px;
+  }
+
+  .btnConsoleDX{
+    position: absolute;
+    background-color: #000;
+    box-shadow:  5px -5px 10px #616161,
+    -5px 5px 10px #9f9f9f;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top:250px;
+    right: 50px;
+  }
+
+  .boxDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form{
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+    padding: 0px 50px ;
+  
+  }
+
+  .label{
+    font-size: xx-small;
+  }
+  
+
+
+  @media screen and (max-width: 600px) {
+    .btnImg {
+      right:0px;
+      top: -150px;
+      bottom: 0px;
+      left: 315px;
+      
+    }
+    .btnConsoleDX,.btnConsoleSX,.btnConsoleSmallY,.btnConsoleSmallX,.btnConsoleSmallA,.btnConsoleSmallB,.btnConsolePlusSX{
+      display: none;
+    }
+    .boxLog{
+      border-radius: 0;
+    }
+    .form{
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      padding: 0px 50px ;
+    
+    }
+  }
+
+
+
+
+
+  

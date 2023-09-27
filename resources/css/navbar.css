@@ -1,0 +1,180 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+
+.navbar-custom{
+    background-color: var(--giallo);
+    position: fixed;
+    z-index: 9999;
+}
+
+.dropdown-menu{
+    background-color: var(--giallo);
+}
+
+.link-custom{
+    color: #F8F9FA;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+.nav-link:hover, .nav-link:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav_link:visited{
+    color: #F8F9FA;
+}
+
+li{
+    list-style-type: none;
+}
+
+.customdrop{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+.boxLeng{
+    width: 30px;
+    height: 30px;
+    position: relative;
+
+}
+
+.select-leng{
+    width: 30px;
+    height: 30px;
+    background:  rgb(220, 220, 220);
+    border-radius: 50%;
+    appearance: none;
+    border: none;
+    text-align: center;
+}
+
+.select-leng:hover{
+    background:  rgb(188, 188, 188);
+
+}
+
+.imgLeng{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.imgSelectLeng{
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.lengIT{
+    width: 30px;
+    height: 30px;
+    background:  rgb(220, 220, 220);
+    border-radius: 50%;
+    position: absolute;
+    right: 13px;
+    top:60px;
+    animation: cascade 1s;
+
+}
+.lengEN{
+    width: 30px;
+    height: 30px;
+    background:  rgb(220, 220, 220);
+    border-radius: 50%;
+    position: absolute;
+    right: 13px;
+    top:100px;
+    animation: cascade 1.5s;
+
+}
+.lengES{
+    width: 30px;
+    height: 30px;
+    background:  rgb(220, 220, 220);
+    border-radius: 50%;
+    position: absolute;
+    right: 13px;
+    top:140px;
+    border: 1px solid white;
+    animation: cascade 2s;
+}
+
+
+@media (max-width: 991px) {
+    .lengIT{
+        position: absolute;
+        left: 55px;
+        top:0px;
+        border: 1px solid white;
+        animation: right 2s;
+       
+    }
+    .lengEN{
+        position: absolute;
+        left: 100px;
+        top:358px;
+        border: 1px solid white;
+        animation: right 2s;
+       
+    }
+    .lengES{
+        position: absolute;
+        left: 145px;
+        top:358px;
+        border: 1px solid white;
+        animation: right 2s;
+       
+    }
+    .boxLeng,.select-leng{
+        margin: 5px;
+    }
+  }
+
+
+
+
+
+
+
+@keyframes cascade {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+@keyframes right {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
+
